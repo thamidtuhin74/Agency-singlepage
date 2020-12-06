@@ -128,7 +128,7 @@ header {
 
 .header-content {
 	clear: both;
-    width: 50%;
+    width: 46%;
     margin-top: 300px;
 }
 .header-content h2{
@@ -136,13 +136,15 @@ header {
     clear: both;
     color: #314584;
     text-transform: capitalize;
-    font-size: 73.48px;
+    font-size: 60.48px;
     font-weight: bold;
+    line-height: 70px;
 }
 .header-content p{
 	clear: both;
 	color: #ced1d2;
 	margin-top: 25px;
+	text-align: justify;
 }
 .header-content ul{
 	padding-top: 30px;
@@ -185,15 +187,16 @@ header {
 }
 
 .service-header, .service-item{
-	width: 28%;
-    margin-right: 5%;
+	width: 30%;
+    margin-right: 3%;
     float: left;
     height: 300px;
 	
 }
 .service-header h2{
-	font-size: 45px;
-    font-weight: bold;
+	font-size: 34px;
+    font-weight: 400;
+    line-height: 45px;
 }
 .service-header ul{
 	padding-top: 50px;
@@ -211,7 +214,7 @@ header {
     border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 1px 10px 12px #cac9c9;
-    margin-right: 10%;
+    margin-right: 7%;
 }
 .service-item img{
 	width: 20%;
@@ -317,7 +320,7 @@ i.fa.fa-arrow-left {
 .Protfolio {
 	background: url(image/protfolio-bg.png) no-repeat;
     background-size: 500px 600px;
-    background-position: 0px 85px;
+    background-position: 0px 135px;
     clear: both;
     padding-top: 100px;
     padding-bottom: 80px;
@@ -368,13 +371,13 @@ i.fa.fa-arrow-left {
 
 .blog {
 	clear: both;
-    padding-top: 60px;
+    padding-top: 0px;
     width: 100%;
     z-index: 1;
-    padding-bottom: 350px;
+    padding-bottom: 450px;
     background: url(image/blog-bg.png) no-repeat;
-    background-size: 500px 450px;
-    background-position: 1100px 190px;
+    background-size: 230px 511px;
+    background-position: 1120px 80px;
 }
 
 .blog h4{
@@ -420,14 +423,14 @@ i.fa.fa-arrow-left {
 
 .blog-Content .blog-1 h6{
 	font-size: 12px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     line-height: 22px;
 }
 
 .blog-Content .blog-1 p{
 	
     font-size: 14.11px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     line-height: 20px;
 
 }
@@ -448,7 +451,7 @@ i.fa.fa-arrow-left {
 
 
 .Contact {
-	padding-top: 40px;
+	padding-top: 0px;
 
 }
 
@@ -457,6 +460,7 @@ i.fa.fa-arrow-left {
     font-weight: bold;
     text-transform: uppercase;
     color: #ff3946;
+    padding-top: 80px;
 }
 
 .Contact h2{
@@ -470,6 +474,10 @@ i.fa.fa-arrow-left {
 
 .Contact {
 }
+
+.contact-Content {
+    margin-top: -150px;
+} 
 
 .contact-Content form{
 	margin-bottom: 40px;
