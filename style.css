@@ -46,6 +46,7 @@ table {
 /*Custom CSS strat*/
 html{
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 .wrapper{
 	width: 950px;
@@ -60,7 +61,6 @@ header {
 }
 .header-top {
 	    padding-top: 70px;
-	    margin-left: (-160+30)px;
 }
 .header-top a{
 	color: #314584;
@@ -268,7 +268,39 @@ header {
     text-align: justify;
 	
 }
+.about-content ul{
+	margin-top: 40px;
+}
+.about-content ul li{
+	float: left;
+	color: #314584;
+	margin-right: 10px;
+	
+}
+.about-content ul li:hover{
+	color: #ff3946;
+	
+}
+i.fa.fa-arrow-left {
+    color: #efefef;
+    font-size: 12px;
+}
 
+.left-right-arrow ul{	
+	position: relative;
+    top: -45px;
+    left: 880px !important;
+    bottom: 0px;	
+}
+.left-right-arrow ul li{
+	float: left;
+	color: #314584;
+	margin-right: 10px;
+	
+}
+.left-right-arrow ul li:hover{
+	color: #ff3946;
+}
 .Protfolio {
 	background: url(image/protfolio-bg.png) no-repeat;
     background-size: 500px 600px;
@@ -282,23 +314,27 @@ header {
 	font-size: 45px;
     font-weight: bold;
     margin-top: 30px;
+    margin-bottom: 25px;
     color: #314584;
 }
 .protfolio-content {
 }
-.protfolio-content ul{
+.protfolio-content .picture{
+	clear: both;
+}
+.protfolio-content .picture ul{
 	width: 100%;
 	margin-top: 40px;
 	
 }
-.protfolio-content ul li{
+.protfolio-content .picture ul li{
 	margin-bottom: 10px;
     float: left;
     width: 31%;
     margin-right: 2%;
 }
 
-.protfolio-content ul li img{
+.protfolio-content .picture ul li img{
 	width: 100%;
 	height: 100%
 }
@@ -337,6 +373,9 @@ header {
     margin-top: 30px;
     color: #314584;
     margin-bottom: 30px;
+}
+.blog-Content{
+	clear: both;
 }
 .blog-Content .blog-1{
 	/*background: #fff;*/
