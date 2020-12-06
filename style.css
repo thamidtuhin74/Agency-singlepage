@@ -174,8 +174,8 @@ header {
     padding-bottom: 300px;
     background: url(image/about-left-shape.png),url(image/about-right-shape.png);
     background-repeat: no-repeat,no-repeat;
-    background-size: 180px 600px,920px 3049px;
-    background-position: -140px 110px,520px -500px;
+    background-size: 140px 635px,830px 3049px;
+    background-position: 0px 110px,520px -500px;
 }
 .about a{
 	text-decoration: none;
@@ -250,16 +250,16 @@ header {
 .about-image{
 	width: 40%;
 	float: left;
-	margin-right: 10%
+	margin-right: 15%
 
 }
 .about-image img{
-	margin-left: -180px;
+	margin-left: -85px;
     width: 550px;
 
 }
 .about-content{
-	width: 50%;
+	width: 45%;
     float: left;
     color: #314584;
     margin-top: 30px;
